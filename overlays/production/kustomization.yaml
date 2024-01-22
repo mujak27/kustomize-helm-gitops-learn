@@ -3,8 +3,8 @@ bases:
 
 helmCharts:
 - name: emqx
-  repo: https://github.com/emqx/emqx/tree/master/deploy/charts/emqx-enterprise
-  releaseName: emqx
+  repo: https://repos.emqx.io/charts
+  releaseName: emqx-enterprise
   namespace: emqx
   version: 1.0.0
   valuesFile: helm-values.yaml
