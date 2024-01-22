@@ -1,8 +1,10 @@
-namePrefix: production-
-commonLabels:
-  variant: production
 bases:
 - ../../base
-patchesStrategicMerge:
-- deployment.yaml
-- config-map.yaml
+
+helmCharts:
+- name: emqx
+  repo: https://helm.mergestat.com/
+  releaseName: emqx
+  namespace: emqx
+  version: 1.0.0
+  valuesFile: helm-values.yaml
