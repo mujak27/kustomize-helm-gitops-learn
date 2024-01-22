@@ -3,7 +3,7 @@ bases:
 
 helmCharts:
 - name: emqx
-  repo: https://github.com/emqx/emqx.git
+  repo: https://github.com/emqx/emqx/tree/master/deploy/charts/emqx-enterprise
   releaseName: emqx
   namespace: emqx
   version: 1.0.0
