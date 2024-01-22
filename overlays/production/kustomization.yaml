@@ -3,7 +3,7 @@ bases:
 
 helmCharts:
 - name: emqx
-  repo: https://helm.mergestat.com/
+  repo: https://github.com/emqx/emqx.git
   releaseName: emqx
   namespace: emqx
   version: 1.0.0
