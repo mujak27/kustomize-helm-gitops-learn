@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: emqx
     name: in-cluster
-  project: defauult
+  project: default
   source:
     path: configs/EMQX/overlay
     repoURL: https://github.com/mujak27/kustomize-helm-gitops-learn
