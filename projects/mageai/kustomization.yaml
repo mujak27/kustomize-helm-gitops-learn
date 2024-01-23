@@ -1,5 +1,5 @@
 resources:
-- service.yaml
+- resources/
 
 helmCharts:
 - name: mageai
