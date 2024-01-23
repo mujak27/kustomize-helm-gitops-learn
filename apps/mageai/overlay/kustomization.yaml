@@ -1,0 +1,10 @@
+bases:
+- ../../base
+
+helmCharts:
+- name: mageai
+  repo: https://mage-ai.github.io/helm-charts/
+  releaseName: mageai
+  namespace: mageai
+  version: 0.9.55
+  valuesFile: helm-values.yaml
