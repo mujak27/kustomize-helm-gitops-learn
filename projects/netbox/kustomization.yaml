@@ -1,5 +1,3 @@
-resources:
-
 helmCharts:
 - name: bootc
   repo: https://charts.boo.tc
