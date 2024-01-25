@@ -1,0 +1,9 @@
+resources:
+
+helmCharts:
+- name: bootc
+  repo: https://charts.boo.tc
+  releaseName: netbox
+  namespace: netbox
+  version: 4.1.1
+  valuesFile: helm-values.yaml
