@@ -1,5 +1,5 @@
 helmCharts:
-- name: bootc
+- name: netbox
   repo: https://charts.boo.tc
   releaseName: netbox
   namespace: netbox
