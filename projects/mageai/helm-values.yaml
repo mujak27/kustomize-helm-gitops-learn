@@ -135,8 +135,10 @@ extraVolumeMounts:
 
 extraVolumes:
   - name: mage-fs
-    persistentVolumeClaim:
-      claimName: mage-volume
+    # persistentVolumeClaim:
+    #   claimName: mage-volume
+    hostPath:
+      path: /path/to/mage_project
 
 # config: Default configuration for mageai as environment variables. These get injected directly in the container.
 config: {}
